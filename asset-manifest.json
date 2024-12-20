@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "./static/css/main.c7bee95e.css",
-    "main.js": "./static/js/main.bc222b70.js",
-    "static/js/453.f52f91e6.chunk.js": "./static/js/453.f52f91e6.chunk.js",
-    "static/media/zlap3.png": "./static/media/zlap3.bed8705bc276be707d63.png",
-    "index.html": "./index.html",
-    "main.c7bee95e.css.map": "./static/css/main.c7bee95e.css.map",
-    "main.bc222b70.js.map": "./static/js/main.bc222b70.js.map",
-    "453.f52f91e6.chunk.js.map": "./static/js/453.f52f91e6.chunk.js.map"
+    "main.css": "/zlapstore/static/css/main.c7bee95e.css",
+    "main.js": "/zlapstore/static/js/main.390b07d5.js",
+    "static/js/453.f52f91e6.chunk.js": "/zlapstore/static/js/453.f52f91e6.chunk.js",
+    "static/media/zlap3.png": "/zlapstore/static/media/zlap3.bed8705bc276be707d63.png",
+    "index.html": "/zlapstore/index.html",
+    "main.c7bee95e.css.map": "/zlapstore/static/css/main.c7bee95e.css.map",
+    "main.390b07d5.js.map": "/zlapstore/static/js/main.390b07d5.js.map",
+    "453.f52f91e6.chunk.js.map": "/zlapstore/static/js/453.f52f91e6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c7bee95e.css",
-    "static/js/main.bc222b70.js"
+    "static/js/main.390b07d5.js"
   ]
 }
