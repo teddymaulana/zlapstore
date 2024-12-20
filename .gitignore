@@ -21,3 +21,6 @@ logs
 extensions/*/build
 
 # lock files
+
+# production
+/build
