@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.fa89ad49.css",
-    "main.js": "/static/js/main.a2f716e2.js",
+    "main.js": "/static/js/main.a2da8dbc.js",
     "static/js/453.f52f91e6.chunk.js": "/static/js/453.f52f91e6.chunk.js",
     "static/media/bg.png": "/static/media/bg.2027eae2f6c37bf38b25.png",
     "static/media/terafest-pack.png": "/static/media/terafest-pack.5ff63e0a35cebab1f942.png",
@@ -9,11 +9,11 @@
     "static/media/logozlap2.png": "/static/media/logozlap2.e743472f57563f2c96eb.png",
     "index.html": "/index.html",
     "main.fa89ad49.css.map": "/static/css/main.fa89ad49.css.map",
-    "main.a2f716e2.js.map": "/static/js/main.a2f716e2.js.map",
+    "main.a2da8dbc.js.map": "/static/js/main.a2da8dbc.js.map",
     "453.f52f91e6.chunk.js.map": "/static/js/453.f52f91e6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fa89ad49.css",
-    "static/js/main.a2f716e2.js"
+    "static/js/main.a2da8dbc.js"
   ]
 }
