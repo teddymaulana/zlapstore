@@ -31,6 +31,9 @@ function App() {
         </Swiper>
         */}
         <a className='border-4 font-bold bg-[#1b434c] rounded-[10px] py-2 px-4 mb-4 w-[220px]' href="https://www.tokopedia.com/zlap">Shop on Tokopedia</a>
+        <p class='mb-2 font-bold mt-3'>Also available soon on:</p>
+        <a className='border-4 font-bold bg-[#1b434c] rounded-[10px] py-2 px-4 mb-4 w-[220px] pointer-events-none opacity-60' href="https://shopee.co.id/shop/18959012">Shop on Shopee</a>
+        <a className='border-4 font-bold bg-[#1b434c] rounded-[10px] py-2 px-4 w-[220px] pointer-events-none opacity-60' href="https://www.tiktok.com/@zlap.collectibles">Visit Our Tiktok</a>
       </header>
     </div>
   );
