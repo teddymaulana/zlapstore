@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.becb6f88.css",
-    "main.js": "/static/js/main.c752a72f.js",
+    "main.css": "/static/css/main.fa89ad49.css",
+    "main.js": "/static/js/main.5b66f8bb.js",
     "static/js/453.f52f91e6.chunk.js": "/static/js/453.f52f91e6.chunk.js",
     "static/media/bg.png": "/static/media/bg.2027eae2f6c37bf38b25.png",
     "static/media/terafest-pack.png": "/static/media/terafest-pack.5ff63e0a35cebab1f942.png",
     "static/media/terafest1.png": "/static/media/terafest1.f21633839fcc17d8d558.png",
     "static/media/logozlap2.png": "/static/media/logozlap2.e743472f57563f2c96eb.png",
     "index.html": "/index.html",
-    "main.becb6f88.css.map": "/static/css/main.becb6f88.css.map",
-    "main.c752a72f.js.map": "/static/js/main.c752a72f.js.map",
+    "main.fa89ad49.css.map": "/static/css/main.fa89ad49.css.map",
+    "main.5b66f8bb.js.map": "/static/js/main.5b66f8bb.js.map",
     "453.f52f91e6.chunk.js.map": "/static/js/453.f52f91e6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.becb6f88.css",
-    "static/js/main.c752a72f.js"
+    "static/css/main.fa89ad49.css",
+    "static/js/main.5b66f8bb.js"
   ]
 }
