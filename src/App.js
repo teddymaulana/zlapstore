@@ -1,6 +1,13 @@
-import logo from './assets/logozlap2.png';
-import promo from './assets/terafest1.png';
-import promo2 from './assets/terafest-pack.png';
+import tokped from './assets/tokped3.png';
+import shopee from './assets/shopeelogo.png';
+import ig from './assets/iglogo.png';
+import tiktok from './assets/tiktoklogo.png';
+import pdp1 from './assets/PDP/prb-bundles.png';
+import pdp2 from './assets/PDP/pdp2.png';
+import pdp3 from './assets/PDP/pdp3.png';
+import main from './assets/main.mp4';
+import maingif from './assets/main.gif';
+import pdp5 from './assets/PDP/prb-bundles.png';
 import './App.css';
 
 // Import Swiper React components
@@ -11,30 +18,54 @@ import 'swiper/css';
 
 function App() {
   return (
-    <div className="App ">
-      <header className={`App-header bg-cover bg-[url('./assets/bg.png')]`} style={{ backgroundImage: './assets/bg.png'}}>
-        <img src={logo} className="w-[150px]" alt="logo" />
+    <div className="App h-[100vh] w-full  bg-cover bg-[url('./assets/holographic.png')]">
+      <div className='pt-[100px]'>
         {/* 
         <Swiper
           spaceBetween={10}
-          slidesPerView={1}
+          slidesPerView={2}
+          slidesPerGroup={1}
+          centeredSlides={false}
           onSlideChange={() => console.log('slide change')}
           onSwiper={(swiper) => console.log(swiper)}
-          className='w-[200px] m-[20px]'
+          className='2  mx-4'
         >
           <SwiperSlide>
-            <img src={promo} className='w-full'/>
+            <img src={pdp1} className='w-full'/>
           </SwiperSlide>
           <SwiperSlide>
-            <img src={promo2} className='w-full'/>
+            <img src={pdp3} className='w-full'/>
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={pdp2} className='w-full'/>
           </SwiperSlide>
         </Swiper>
         */}
-        <a className='border-4 font-bold bg-[#1b434c] rounded-[10px] py-2 px-4 mb-4 w-[220px]' href="https://www.tokopedia.com/zlap">Shop on Tokopedia</a>
-        <a className='border-4 font-bold bg-[#1b434c] rounded-[10px] py-2 px-4 mb-4 w-[220px]' href="https://shopee.co.id/shop/18959012">Shop on Shopee</a>
-        <a className='border-4 font-bold bg-[#1b434c] rounded-[10px] py-2 px-4 w-[220px]' href="https://www.tiktok.com/@zlap.collectibles">Visit Our Tiktok</a>
-        <a className='border-4 font-bold bg-[#1b434c] rounded-[10px] py-2 px-4 w-[220px]' href="https://www.instagram.com/zlapcollectibles/">Visit Our Instagram</a>
-      </header>
+        <img src={maingif} />
+        <div className='w-full'>
+          <a className='border-4 font-bold bg-[#02a19b] text-white rounded-[10px] py-2 px-4 mb-4 w-[220px] mr-1' href="https://www.tokopedia.com/zlap">Shop on Tokopedia</a>
+          <a className='border-4 font-bold bg-[#02a19b] text-white rounded-[10px] py-2 px-4 mb-4 w-[220px] ml-1' href="https://shopee.co.id/shop/18959012">Shop on Shopee</a>
+        </div>
+      </div>
+      <div className={` w-full bottom-0`}>
+          <div className='fixed w-full p-4 flex bottom-0 flex-col'>
+            <div className='flex w-full justify-center'>
+              <a href="https://www.tokopedia.com/zlap" className='mx-4'>
+                <img src={tokped} className='h-[30px]' />
+              </a>
+              <a href="https://shopee.co.id/shop/18959012" className=' mx-4'>
+                <img src={shopee} className='h-[30px]' />
+              </a>
+              <a href="https://www.tiktok.com/@zlap.collectibles" className=' mx-4'>
+                <img src={tiktok} className='h-[30px]' />
+              </a>
+              <a href="https://www.instagram.com/zlapcollectibles/" className=' mx-4'>
+                <img src={ig} className='h-[30px]' />
+              </a>
+            </div>
+            <p className='m-0 mt-4 w-full block'>ZLAP collectibles © 2025</p>
+          </div>
+      </div>
     </div>
   );
 }
