@@ -2,7 +2,7 @@ import tokped from './assets/tokped3.png';
 import shopee from './assets/shopeelogo.png';
 import ig from './assets/iglogo.png';
 import tiktok from './assets/tiktoklogo.png';
-import maingif from './assets/main.gif';
+import maingif from './assets/main.png';
 import './App.css';
 
 // Import Swiper React components
