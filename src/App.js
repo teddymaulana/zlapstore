@@ -2,12 +2,7 @@ import tokped from './assets/tokped3.png';
 import shopee from './assets/shopeelogo.png';
 import ig from './assets/iglogo.png';
 import tiktok from './assets/tiktoklogo.png';
-import pdp1 from './assets/PDP/prb-bundles.png';
-import pdp2 from './assets/PDP/pdp2.png';
-import pdp3 from './assets/PDP/pdp3.png';
-import main from './assets/main.mp4';
 import maingif from './assets/main.gif';
-import pdp5 from './assets/PDP/prb-bundles.png';
 import './App.css';
 
 // Import Swiper React components
