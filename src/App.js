@@ -13,7 +13,7 @@ import 'swiper/css';
 
 function App() {
   return (
-    <div className="App h-[100vh] w-full  bg-cover bg-[url('./assets/holographic.png')]">
+    <div className="App h-[100vh] w-full  bg-cover bg-[url('./assets/holographic.png')] max-w-[500px] mx-auto">
       <div className='pt-[100px]'>
         {/* 
         <Swiper
