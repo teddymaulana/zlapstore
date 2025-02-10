@@ -58,7 +58,7 @@ function App() {
                 <img src={ig} className='h-[30px]' />
               </a>
             </div>
-            <p className='m-0 mt-4 w-full block'>ZLAP collectibles © 2025</p>
+            <p className='m-0 mt-4 w-full block'>ZLAP collectibles 2025</p>
           </div>
       </div>
     </div>
