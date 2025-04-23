@@ -7,10 +7,12 @@ import pdp2 from './assets/2.png';
 import pdp3 from './assets/3.png';
 import pdp4 from './assets/4.png';
 import pdp5 from './assets/5.png';
+import swipe from './assets/swipe.png';
 import './App.css';
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation } from 'swiper/modules';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -26,6 +28,7 @@ function App() {
           centeredSlides={false}
           onSlideChange={() => console.log('slide change')}
           onSwiper={(swiper) => console.log(swiper)}
+          navigation={true}
         >
           <SwiperSlide>
             <img src={pdp1} className='w-full'/>
@@ -44,6 +47,7 @@ function App() {
           </SwiperSlide>
         </Swiper>
       </div>
+      <img src={swipe} className='swipe-left absolute top-[25px] w-[100px] right-[15px] z-10' />
       <div className={` w-full bottom-0 z-10 absolute text-[#c6fd07] font-semibold bg-[#545454]`}>
           <div className='fixed w-full p-4 flex bottom-0 flex-col'>
             <div className='flex w-full justify-center'>
