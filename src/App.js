@@ -2,7 +2,11 @@ import tokped from './assets/tokped3.png';
 import shopee from './assets/shopeelogo.png';
 import ig from './assets/iglogo.png';
 import tiktok from './assets/tiktoklogo.png';
-import maingif from './assets/main.png';
+import pdp1 from './assets/1.png';
+import pdp2 from './assets/2.png';
+import pdp3 from './assets/3.png';
+import pdp4 from './assets/4.png';
+import pdp5 from './assets/5.png';
 import './App.css';
 
 // Import Swiper React components
@@ -14,51 +18,49 @@ import 'swiper/css';
 function App() {
   return (
     <div className="App h-[100vh] w-full  bg-cover bg-[url('./assets/holographic.png')] max-w-[500px] mx-auto">
-      <div className='pt-[100px]'>
-        {/* 
+      <div className='pt-[0]'>
         <Swiper
           spaceBetween={10}
-          slidesPerView={2}
+          slidesPerView={1}
           slidesPerGroup={1}
           centeredSlides={false}
           onSlideChange={() => console.log('slide change')}
           onSwiper={(swiper) => console.log(swiper)}
-          className='2  mx-4'
         >
           <SwiperSlide>
             <img src={pdp1} className='w-full'/>
           </SwiperSlide>
           <SwiperSlide>
+            <img src={pdp2} className='w-full'/>
+          </SwiperSlide>
+          <SwiperSlide>
             <img src={pdp3} className='w-full'/>
           </SwiperSlide>
           <SwiperSlide>
-            <img src={pdp2} className='w-full'/>
+            <img src={pdp4} className='w-full'/>
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={pdp5} className='w-full'/>
           </SwiperSlide>
         </Swiper>
-        */}
-        <img src={maingif} />
-        <div className='w-full'>
-          <a className='border-4 font-bold bg-[#02a19b] text-white rounded-[10px] py-2 px-4 mb-4 w-[220px] mr-1' href="https://www.tokopedia.com/zlap">Shop on Tokopedia</a>
-          <a className='border-4 font-bold bg-[#02a19b] text-white rounded-[10px] py-2 px-4 mb-4 w-[220px] ml-1' href="https://shopee.co.id/shop/18959012">Shop on Shopee</a>
-        </div>
       </div>
-      <div className={` w-full bottom-0`}>
+      <div className={` w-full bottom-0 z-10 absolute text-[#c6fd07] font-semibold bg-[#545454]`}>
           <div className='fixed w-full p-4 flex bottom-0 flex-col'>
             <div className='flex w-full justify-center'>
+              <span className='text-[#c6fd07] font-semibold'>Shop on</span>
               <a href="https://www.tokopedia.com/zlap" className='mx-4'>
-                <img src={tokped} className='h-[30px]' />
+                <img src={tokped} className='h-[27px]' />
               </a>
               <a href="https://shopee.co.id/shop/18959012" className=' mx-4'>
-                <img src={shopee} className='h-[30px]' />
+                <img src={shopee} className='h-[27px]' />
               </a>
               <a href="https://www.tiktok.com/@zlap.collectibles" className=' mx-4'>
-                <img src={tiktok} className='h-[30px]' />
+                <img src={tiktok} className='h-[27px]' />
               </a>
               <a href="https://www.instagram.com/zlapcollectibles/" className=' mx-4'>
-                <img src={ig} className='h-[30px]' />
+                <img src={ig} className='h-[27px]' />
               </a>
             </div>
-            <p className='m-0 mt-4 w-full block'>ZLAP collectibles 2025</p>
           </div>
       </div>
     </div>
